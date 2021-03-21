@@ -1,0 +1,25 @@
+{
+  "name": "react-esbuild-scaffold",
+  "version": "1.0.0",
+  "description": "React project scaffold using esbuild for faster building times.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node es-build-prod.js",
+    "build:dev": "node es-build-dev.js",
+    "start": "NODE_ENV=development node dev-server.js"
+  },
+  "author": "Samuel David De La Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "esbuild": "^0.9.5",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "open": "^8.0.4",
+    "nodemon": "^2.0.7"
+  }
+}
