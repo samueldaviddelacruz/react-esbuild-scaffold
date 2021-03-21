@@ -3,6 +3,7 @@ React project scaffold using [esbuild](https://esbuild.github.io/) for faster bu
 
 # Pre-requistes
 Start dependencies using `npm install`
+Copy contents from `.env.example` to a new`.env` file
 # Usage
 ## Starting dev server
 ```bash

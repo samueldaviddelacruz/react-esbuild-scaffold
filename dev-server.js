@@ -1,3 +1,4 @@
+require('dotenv').config()
 const fs = require('fs/promises')
 const {constants} = require('fs')
 const express = require('express');
@@ -9,6 +10,7 @@ const path = require('path');
 const port = process.env.PORT || 4200;
 const app = express();
 
+console.log("process.env.NODE_ENV",process.env.NODE_ENV)
 if (process.env.NODE_ENV === "development") {
     let responseWritter;
     app.get('/files-changed', function (req, res) {
